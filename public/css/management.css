@@ -1,0 +1,15 @@
+.rules {
+    padding-left: 2%;
+}
+
+.rules > ul > li {
+    font-size: 15px;
+}
+
+.rules > ul > ul {
+    font-size: 15px;
+}
+
+.alert > label {
+    font-size: 14px;
+}

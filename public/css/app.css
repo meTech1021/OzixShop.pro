@@ -1,0 +1,14 @@
+td, td > label {
+    font-size: 15px;
+}
+th {
+    font-size: 16px!important;
+}
+
+.container > .row > .col-md-12 > .note > ul > li {
+    font-size: 15px;
+}
+
+#account_setting > p {
+    font-size: 15px;
+}
